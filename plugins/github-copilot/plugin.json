@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scrutin-code-review",
+  "description": "Read existing Scrutin analysis results, findings, dependency alerts, metrics, and quality gates.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev",
+    "url": "https://scrutin.dev"
+  },
+  "homepage": "https://scrutin.dev",
+  "repository": "https://github.com/codigocentral/scrutin-plugins",
+  "license": "MIT"
+}

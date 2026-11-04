@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "scrutin": {
+      "serverUrl": "https://mcp.scrutin.dev/mcp"
+    }
+  }
+}

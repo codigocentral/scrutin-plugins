@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.scrutin/scrutin",
+  "title": "Scrutin",
+  "description": "AI-powered code review, repository risk summaries, security alerts, and quality gates by Scrutin.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.scrutin.dev/mcp"
+    }
+  ]
+}

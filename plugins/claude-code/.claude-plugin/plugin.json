@@ -1,0 +1,19 @@
+{
+  "name": "scrutin",
+  "displayName": "Scrutin",
+  "description": "Inspect existing Scrutin code analysis results in your authorized organization: repositories, analyses, individual findings, aggregate metrics, dependency vulnerabilities, and quality gate evaluations. The connection is read-only. It does not start scans, change source code, apply fixes, or post PR comments. Summary data is available on Free; individual analysis details require Pro or higher, and repository/PR quality gates require Enterprise.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev"
+  },
+  "homepage": "https://scrutin.dev",
+  "repository": "https://github.com/codigocentral/scrutin-plugins",
+  "privacyPolicyUrl": "https://scrutin.dev/privacy",
+  "termsOfServiceUrl": "https://scrutin.dev/terms",
+  "supportUrl": "https://docs.scrutin.dev/integrations/ai-assistants#support",
+  "documentationUrl": "https://docs.scrutin.dev/integrations/ai-assistants",
+  "icon": "assets/icon.png",
+  "license": "MIT",
+  "keywords": ["scrutin", "code-review", "security", "quality-gates", "vulnerabilities", "mcp"]
+}

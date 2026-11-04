@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "scrutin",
+  "description": "Official Claude Code marketplace for Scrutin plugins, code review skills, and MCP integrations.",
+  "owner": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev"
+  },
+  "plugins": [
+    {
+      "name": "scrutin",
+      "description": "Read existing Scrutin analysis results, findings, dependency alerts, metrics, and quality gates.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Scrutin",
+        "email": "support@scrutin.dev"
+      },
+      "source": "./plugins/claude-code",
+      "homepage": "https://scrutin.dev",
+      "license": "MIT",
+      "keywords": [
+        "scrutin",
+        "code-review",
+        "security",
+        "quality-gates",
+        "vulnerabilities",
+        "mcp"
+      ]
+    }
+  ]
+}

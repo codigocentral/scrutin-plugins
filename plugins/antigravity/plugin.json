@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "scrutin",
+  "description": "Read existing Scrutin analysis results, findings, dependency alerts, metrics, and quality gates.",
+  "displayName": "Scrutin",
+  "version": "0.1.1",
+  "author": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev",
+    "url": "https://scrutin.dev"
+  },
+  "homepage": "https://scrutin.dev",
+  "repository": "https://github.com/codigocentral/scrutin-plugins",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "List my repositories in Scrutin.",
+    "Summarize the latest analysis of my repository.",
+    "Explain critical findings from an existing analysis."
+  ]
+}
