@@ -2,7 +2,7 @@
   "name": "scrutin",
   "displayName": "Scrutin",
   "description": "Inspect existing Scrutin code analysis results in your authorized organization: repositories, analyses, individual findings, aggregate metrics, dependency vulnerabilities, and quality gate evaluations. The connection is read-only. It does not start scans, change source code, apply fixes, or post PR comments. Summary data is available on Free; individual analysis details require Pro or higher, and repository/PR quality gates require Enterprise.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Scrutin",
     "email": "support@scrutin.dev"

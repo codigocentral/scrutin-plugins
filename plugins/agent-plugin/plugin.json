@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "scrutin",
   "description": "Read existing Scrutin analysis results, findings, dependency alerts, metrics, and quality gates.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Scrutin",
     "email": "support@scrutin.dev",
@@ -16,7 +16,7 @@
       "interface": {
         "displayName": "Scrutin",
         "shortDescription": "Read code review results",
-        "longDescription": "Inspect existing Scrutin code analysis results in your authorized organization: repositories, analyses, individual findings, aggregate metrics, dependency vulnerabilities, and quality gate evaluations. The connection is read-only. It does not start scans, change source code, apply fixes, or post PR comments. Summary data is available on Free; individual analysis details require Pro or higher, and repository/PR quality gates require Enterprise.",
+        "longDescription": "Inspect existing Scrutin code analysis results in your authorized organization: repositories, analyses, individual findings, aggregate metrics, dependency vulnerabilities, and quality gate evaluations. The connection is read-only. It does not start scans, change source code, apply fixes, or post PR comments.",
         "developerName": "Scrutin",
         "category": "Developer Tools",
         "capabilities": ["Read analysis results", "Explain findings", "Summarize repository risk"],
@@ -27,13 +27,13 @@
         "defaultPrompt": [
           "Summarize the latest analysis of my repository.",
           "Show critical findings from the latest analysis.",
-          "Explain why the latest analysis failed its quality gate."
+          "Explain the latest analysis quality gate result."
         ],
         "composerIcon": "./assets/composer-icon.png",
         "logo": "./assets/logo.png"
       },
       "publication": {
-        "release_notes": "Read-only OAuth connection with repository and analysis queries, finding explanations, dependency alerts, and quality gate results."
+        "release_notes": "Clarifies the read-only listing and removes subscription language from the public description. Repository and analysis queries, finding explanations, dependency alerts, and quality gate results remain available through OAuth."
       },
       "review": {
         "test_cases": {

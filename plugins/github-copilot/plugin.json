@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "scrutin-code-review",
   "description": "Read existing Scrutin analysis results, findings, dependency alerts, metrics, and quality gates.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "name": "Scrutin",
     "email": "support@scrutin.dev",
