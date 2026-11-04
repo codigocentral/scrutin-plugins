@@ -9,6 +9,9 @@ All customer plugins query existing analysis results through OAuth at
 - Antigravity: `plugins/antigravity` (partner directory review is separate).
 - GitHub Copilot: `plugins/github-copilot` (portable skills plus a client-specific agent).
 
+The root `.cursor-plugin/marketplace.json` lets Cursor discover the portable
+Scrutin plugin when importing this multi-plugin repository by its root URL.
+
 ## Install in Claude Code
 
 ```text

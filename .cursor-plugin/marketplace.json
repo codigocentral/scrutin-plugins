@@ -1,0 +1,27 @@
+{
+  "name": "scrutin",
+  "owner": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev"
+  },
+  "metadata": {
+    "description": "Read existing Scrutin code review results through OAuth."
+  },
+  "plugins": [
+    {
+      "name": "scrutin",
+      "source": "./plugins/agent-plugin",
+      "description": "Read existing analysis results, findings, aggregate metrics, dependency alerts and quality gates.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Scrutin",
+        "email": "support@scrutin.dev"
+      },
+      "homepage": "https://scrutin.dev",
+      "repository": "https://github.com/codigocentral/scrutin-plugins",
+      "license": "MIT",
+      "logo": "assets/logo.png",
+      "category": "Developer Tools"
+    }
+  ]
+}
